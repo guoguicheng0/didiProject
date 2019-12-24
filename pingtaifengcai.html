@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="http://at.alicdn.com/t/font_1579215_resqo7ebx6n.css" rel="stylesheet" />
+		<style>
+			.fontcolor{
+				color: #EC971F;
+				font-weight: 600;
+			}
+			.iconfont {
+			  font-family: "iconfont" !important;
+			  font-size: 20px;
+			  font-style: normal;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+			
+			.icon-1:before {
+			  content: "\e611";
+			}
+			
+			.icon-wodedangxuan:before {
+			  content: "\e600";
+			}
+			
+			.icon-baomingliucheng:before {
+			  content: "\e66d";
+			}
+			
+			.icon-pingtai:before {
+			  content: "\e607";
+			}
+			
+			.icon-chuangyexiangmu-:before {
+			  content: "\e62a";
+			}
+			.fontbody{
+				font-size: 14px;
+				font-weight: lighter;
+				line-height: 6px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">平台风采</h1>
+		</header>
+		<div style="padding: 40px 0 0 0;">
+			<img src="./images/平台风采body.jpg" height="150" width="100%" />
+		</div>
+		<div style="background-color:#EEEEEE;padding: 0;">
+			<div><span class="fontcolor">公司简介</span></div>
+			<HR align=left width=300 color=#987cb9 SIZE=1>
+			<div>
+				<span style="font-weight: 500;">鸿鑫互联科技(北京)股份有限公司</span>
+				<br />
+				
+				<spaan class="fontbody">是一个建筑工程领域万众创业者的开放性互联网电子商务服务平台--滴滴工程平台。 我们的口号是:干工程就上滴滴。滴滴工程平台是公司核心管理平台，平台集企业资质品牌、CRM、线上0A办公、线上ERP、线上采购、资源整合于-一体。实现创业者项目管理:<span class="fontcolor">高效、降低成本、安全</span>。为创业者提供建筑行业生态链一站式服务， 为自身创造千万价值的同时，成为平台的股东，享受平台上市资本带来数倍回报。
+				
+				<br/><br/>我们秉承<span class="fontcolor">"专注、创新、服务、分享"</span>的企业精神，打破行业传统管理理念，为行业创造一个创造良好的服务环境，打造国内建筑领域各专业的孵化平台、管理平台、数据平台(目前专业有:门窗幕墙、装饰、 钢结构等); 以全新的管理模式，完善的技术，周到的服务呈现，我们始终坚持用户至上，全心服务，创业者成功平台才成功的企业核心价值观。
+				
+				<br /><br/>欢迎各位创业者到平台，如您对平台感兴趣或有疑问，请您联系我们。</spaan>
+
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item " href="index.html">
+				<div><span class="iconfont icon-1"></span></div>
+				<div><span class="mui-tab-label">首页</span></div>
+			</a>
+			<a class="mui-tab-item" >
+				<div><span class="iconfont icon-chuangyexiangmu-"></span></div>
+				<div><span class="mui-tab-label">创业项目</span></div>
+			</a>
+			<a class="mui-tab-item">
+				<div><span class="iconfont icon-baomingliucheng"></span></div>
+				<div><span class="mui-tab-label">报名流程</span></div>
+			</a>
+			<a class="mui-tab-item mui-active" >
+				<div><span class="iconfont icon-pingtai"></span></div>
+				<div><span class="mui-tab-label">平台风采</span></div>
+			</a>
+			<a class="mui-tab-item" >
+				<div><span class="iconfont icon-wodedangxuan"></span></div>
+				<div><span class="mui-tab-label">我的滴滴</span></div>
+			</a>
+		</nav>
+		<script src="js/mui.min.js"></script>
+			<script type="text/javascript">
+				// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+				mui("body").on("tap","a",function(){
+					document.location.href = this.href;
+				})
+			</script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
