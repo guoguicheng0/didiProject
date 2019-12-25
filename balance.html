@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<link href="http://at.alicdn.com/t/font_1579215_resqo7ebx6n.css" rel="stylesheet" />
+		<style>
+			.iconfont {
+			  font-family: "iconfont" !important;
+			  font-size: 20px;
+			  font-style: normal;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+			
+			.icon-1:before {
+			  content: "\e611";
+			}
+			
+			.icon-wodedangxuan:before {
+			  content: "\e600";
+			}
+			
+			.icon-baomingliucheng:before {
+			  content: "\e66d";
+			}
+			
+			.icon-pingtai:before {
+			  content: "\e607";
+			}
+			
+			.icon-chuangyexiangmu-:before {
+			  content: "\e62a";
+			}
+		.iconfont {
+		  font-family: "iconfont" !important;
+		  font-size: 16px;
+		  font-style: normal;
+		  -webkit-font-smoothing: antialiased;
+		  -moz-osx-font-smoothing: grayscale;
+		}
+		
+		.icon-money:before {
+		  content: "\e609";
+		}
+		</style>
+
+	</head>
+
+	<body style="background-color: #EFEFF4">
+		<header class="mui-bar mui-bar-nav" >
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">账户余额</h1>
+		</header>
+
+
+		
+
+		<div class="mui-input-row" style="padding: 20px;background-color: #FFFFFF">
+			<div style="height: 100px;font: 10px;text-align: center;padding-top: 50px;">
+				<p style="color: fuchsia;font-size: 30px;">¥15000.00</p>
+			</div>
+		</div>
+
+		<div>
+			<br />
+
+		</div>
+		<div class="mui-content" style="background-color: #FFFFFF;padding-top: 10px;padding-bottom: 10px;">
+			<div style="text-align: center;">
+				<button type="button" class="mui-btn mui-btn-primary" style="font-size: 30px;padding: 2px 60px;">申请提现</button>
+			</div>
+		</div>
+
+
+		<nav class="mui-bar mui-bar-tab">
+			<a class="mui-tab-item ">
+				<div><span class="iconfont icon-1"></span></div>
+				<div><span class="mui-tab-label">首页</span></div>
+			</a>
+			<a class="mui-tab-item">
+				<div><span class="iconfont icon-chuangyexiangmu-"></span></div>
+				<div><span class="mui-tab-label">创业项目</span></div>
+			</a>
+			<a class="mui-tab-item">
+				<div><span class="iconfont icon-baomingliucheng"></span></div>
+				<div><span class="mui-tab-label">报名流程</span></div>
+			</a>
+			<a class="mui-tab-item">
+				<div><span class="iconfont icon-pingtai"></span></div>
+				<div><span class="mui-tab-label">平台风采</span></div>
+			</a>
+			<a class="mui-tab-item mui-active">
+				<div><span class="iconfont icon-wodedangxuan"></span></div>
+				<div><span class="mui-tab-label">我的滴滴</span></div>
+			</a>
+		</nav>
+
+
+
+
+
+
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+			mui("body").on("tap", "a", function() {
+				document.location.href = this.href;
+			})
+		</script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+	</body>
+
+</html>
