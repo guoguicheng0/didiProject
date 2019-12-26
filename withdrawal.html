@@ -38,73 +38,64 @@
 		</style>
 	</head>
 
-	<body>
+	<body style="background-color: #EFEFF4">
 		<header class="mui-bar mui-bar-nav">
 			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
-			<h1 class="mui-title" >申请提现</h1>
+			<h1 class="mui-title">申请提现</h1>
 		</header>
+
+
+
+
 		
-		
-		
-		
-		
-		<div class="mui-input-row">
-			<label>Input</label>
-			<input type="text" placeholder="普通输入框">
+
+
+		<div class="mui-content" style="background-color: #FFFFFF">	
+			<div class="mui-input-row">
+				<label style="text-align: right;">资金金额：</label>
+				<input type="text" placeholder="50000.00元">
+			</div>
+			<hr />
+			<div class="mui-input-row">
+				<label style="text-align: right;">提现金额：</label>
+				<input type="text" placeholder="">
+			</div>
+			<hr />
+			<div class="mui-input-row">
+				<label style="text-align: right;">户名：</label>
+				<input type="text" placeholder="">
+			</div>
+			<hr />
+			<div class="mui-input-row">
+				<label style="text-align: right;">开户行：</label>
+				<input type="text" placeholder="">
+			</div>
+			<hr />
+			<div class="mui-input-row">
+				<label style="text-align: right;">银行账号：</label>
+				<input type="text" placeholder="">
+			</div>
+			<hr />
+			<div class="mui-input-row">
+				<label style="text-align: right;">户行地址：</label>
+				<input type="text" placeholder="">
+			</div>
+			
+
+			<div style="text-align: center;background-color: #EFEFF4 ;"><hr />
+				<button type="button" class="mui-btn mui-btn-primary" style="font-size: 30px;padding: 2px 60px;">提交申请</button>
+			</div>
+
 		</div>
-		<hr />
-		<div class="mui-input-row">
-			<label style="text-align: right;">资金金额：</label>
-			<input type="text" placeholder="50000.00元">
-		</div><hr />
-		<div class="mui-input-row">
-			<label style="text-align: right;">提现金额：</label>
-			<input type="text" placeholder="">
-		</div><hr />
-		<div class="mui-input-row">
-			<label style="text-align: right;">户名：</label>
-			<input type="text" placeholder="">
-		</div><hr />
-		<div class="mui-input-row">
-			<label style="text-align: right;">开户行：</label>
-			<input type="text" placeholder="">
-		</div><hr />
-		<div class="mui-input-row">
-			<label style="text-align: right;">银行账号：</label>
-			<input type="text" placeholder="">	
-		</div><hr />
-		<div class="mui-input-row">
-			<label style="text-align: right;">户行地址：</label>
-			<input type="text" placeholder="">
-		</div><hr />
-		
-		<div style="text-align: center;">
-		<button type="button" class="mui-btn mui-btn-primary" style="font-size: 30px;padding: 2px 60px;" >提交申请</button>
-		</div>
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
+
+
 		<nav class="mui-bar mui-bar-tab">
-			<a class="mui-tab-item " >
+			<a class="mui-tab-item ">
 				<div><span class="iconfont icon-1"></span></div>
 				<div><span class="mui-tab-label">首页</span></div>
 			</a>
-			<a class="mui-tab-item" >
+			<a class="mui-tab-item">
 				<div><span class="iconfont icon-chuangyexiangmu-"></span></div>
 				<div><span class="mui-tab-label">创业项目</span></div>
 			</a>
@@ -112,22 +103,22 @@
 				<div><span class="iconfont icon-baomingliucheng"></span></div>
 				<div><span class="mui-tab-label">报名流程</span></div>
 			</a>
-			<a class="mui-tab-item" >
+			<a class="mui-tab-item">
 				<div><span class="iconfont icon-pingtai"></span></div>
 				<div><span class="mui-tab-label">平台风采</span></div>
 			</a>
-			<a class="mui-tab-item mui-active" >
+			<a class="mui-tab-item mui-active">
 				<div><span class="iconfont icon-wodedangxuan"></span></div>
 				<div><span class="mui-tab-label">我的滴滴</span></div>
 			</a>
 		</nav>
 		<script src="js/mui.min.js"></script>
-			<script type="text/javascript">
-				// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
-				mui("body").on("tap","a",function(){
-					document.location.href = this.href;
-				})
-			</script>
+		<script type="text/javascript">
+			// mui中屏蔽了点击事件，下面的代码表示不让它屏蔽点击事件
+			mui("body").on("tap", "a", function() {
+				document.location.href = this.href;
+			})
+		</script>
 		<script type="text/javascript">
 			mui.init()
 		</script>
